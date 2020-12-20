@@ -1,0 +1,99 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+h2{
+    font-weight: 600;
+}
+p{
+    font-weight: 300;
+}
+.titulo{
+    font-family: 'Impact';
+    color: rgb(1, 24, 18);
+    text-align: center;
+}
+.Titulo-producto
+{
+    font-weight: 800;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.logo{
+    margin: auto;
+    width: 100%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center
+{
+    text-align: center;
+}
+.columna
+{
+    background: rgb(193, 203, 221);
+    color: rgb(51, 51, 51);
+    border: 2px solid #333;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius:20px ;
+    box-shadow: 10px 10px 5px rgb(201, 201, 201);
+    width: 24%;
+    box-sizing: border-box;
+}
+.columna-titulo
+{
+    background: rgb(194, 240, 204);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius:35px ;
+    box-shadow: 10px 10px 5px #888;
+    width: 24%;
+    box-sizing: border-box;
+}
+.precio
+{
+  font-size: 50px;
+  color: black;  
+}
+.btn-precio{
+    background: rgb(17, 5, 80);
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius:3px ;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background: rgb(3, 46, 2) ;
+}
+@media (max-width:1070px)
+{
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .columna-titulo
+    {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:600px)
+{
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .columna-titulo{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
